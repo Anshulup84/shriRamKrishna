@@ -43,6 +43,7 @@
     justify-content: space-between;
     align-items: center;
     padding: 15px;
+   
 }
 
 .logo {
@@ -55,9 +56,16 @@
     margin-right: 10px;
 }
 
+.logo img:hover {
+    height: 200px;
+    margin-right: 10px;
+    transition: transform 0.9s ease;
+    transform: scale(1.2)
+}
+
 .logo span {
     color: white;
-    font-size: 24px;
+    font-size: 19px;
     font-weight: bold;
 }
 
