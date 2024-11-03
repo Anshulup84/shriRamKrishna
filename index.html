@@ -43,11 +43,17 @@
             <li><a href="#">HOME</a></li>
             <li><a href="#categories">CATEGORIES</a></li>
             <li><a href="#">PRODUCTS</a></li>
-            <li><a href="#">SERVICES</a></li>
-            <li><a href="#">ABOUT US</a></li>
-            <li><a href="#">GALLERY</a></li>
-            <li><a href="#">CONTACT US</a></li>
+            <li><a href="#services">SERVICES</a></li>
+            <li><a href="#about">ABOUT US</a></li>
+            <li><a href="#gallery">GALLERY</a></li>
+            <li><a href="#about">CONTACT US</a></li>
         </ul>
+        <!-- Hamburger Icon -->
+        <div class="hamburger">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
     </nav>
 
     <section class="hero">
@@ -96,7 +102,7 @@
     </section>
 
     <!-- Services Section -->
-    <section class="services">
+    <section class="services" id="services">
         <h1>SERVICES</h1>
         <div class="services-grid">
             <div class="service-item">
@@ -128,7 +134,7 @@
     </section>
 
     <!-- About Us Section -->
-    <section class="about-us">
+    <section class="about-us" id="about">
         <div class="about-content">
             <img src="bike-about.jpg" alt="Biker with Classic Bike">
             <div class="about-text">
@@ -157,7 +163,7 @@
     </section>
 
     <!-- Gallery Section -->
-    <section class="gallery">
+    <section class="gallery" id="gallery">
         <h1>GALLERY</h1>
         <div class="gallery-content">
             <img src="bike1.jpg" alt="Bike Image 1">
@@ -167,9 +173,9 @@
     </section>
 
      <!-- Contact Us Section -->
-     <section class="contact-us">
+     <section class="contact-us" >
         <h1>CONTACT US</h1>
-        <div class="contact-content">
+        <div class="contact-content" >
             <!-- Left Column: Contact Information -->
             <div class="contact-info">
                 <div class="info-item">
@@ -180,7 +186,7 @@
                     <i class="fas fa-envelope"></i>
                     <p><strong>General Enquiries</strong><br> websupport@justdial.com</p>
                 </div>
-                <div class="info-item">
+                <div class="info-item" >
                     <i class="fas fa-phone-alt"></i>
                     <p><strong>Call Us</strong><br> +91-8888888888</p>
                 </div>
@@ -191,7 +197,7 @@
             </div>
 
             <!-- Right Column: Contact Form -->
-            <div class="contact-form">
+            <div class="contact-form" id="contact">
                 <form action="submit_form.php" method="POST">
                     <input type="text" name="name" placeholder="Your Name" required>
                     <input type="email" name="email" placeholder="Your Email" required>
@@ -250,6 +256,8 @@
             </p>
         </div>
     </footer>
+
+    <script src = "script.js"></script>
 </body>
 
 </html>

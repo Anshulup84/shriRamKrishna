@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 
 
@@ -89,7 +90,7 @@
     text-decoration: underline;
 }
 .hero {
-    background-image: url(Assets/shriRamKrishna.webp); /* Replace with your image path */
+    background-image: url(Assets/shriRamKrishna.webp); 
     height: 100vh;
     background-size: cover;
     background-position: center;
