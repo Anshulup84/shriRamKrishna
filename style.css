@@ -25,7 +25,9 @@
 
 .contact-info span {
     margin-right: 20px;
+    margin-top: auto;
 }
+
 
 .location {
     margin-right: 20px;
@@ -71,12 +73,12 @@
 }
 
 .nav-links {
-    list-style-type: none;
     display: flex;
+    list-style-type: none;
 }
 
 .nav-links li {
-    margin: 0 20px;
+    margin-left: 20px;
 }
 
 .nav-links a {
@@ -122,14 +124,34 @@
 
     .hamburger {
         display: flex;
+        z-index: 11;
     }
 
     .nav-links.active {
         display: flex;
-        
+        z-index: 10;
     }
 
-  
+    .hamburger.active .bar:nth-child(1) {
+        transform: rotate(-45deg) translate(-5px, 6px);
+    }
+    
+    .hamburger.active .bar:nth-child(2) {
+        opacity: 0;
+    }
+    
+    .hamburger.active .bar:nth-child(3) {
+        transform: rotate(45deg) translate(-5px, -6px);
+    }
+
+    .login-signup {
+        display: flex;
+}
+
+.social-icons{
+    display: flex;
+}
+
 }
 
 .hero {
