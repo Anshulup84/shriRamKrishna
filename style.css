@@ -26,8 +26,13 @@
 .contact-info span {
     margin-right: 20px;
     margin-top: auto;
+display: flex;
 }
 
+.contact-info{
+    display: flex;
+    justify-content: center;
+}
 
 .location {
     margin-right: 20px;
@@ -445,6 +450,7 @@ h1 {
 .contact-info {
     width: 45%;
     text-align: left;
+    flex-direction: column;
 }
 
 .contact-info .info-item {
@@ -715,3 +721,5 @@ iframe {
         font-size: 18px;
     }
 }
+
+
